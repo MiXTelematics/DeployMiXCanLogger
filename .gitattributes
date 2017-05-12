@@ -4,9 +4,12 @@
 * text=auto
 
 ###############################################################################
-# behavior for all clickonce files
+# behaviour for all clickonce files
 #
 # treat as binary.
 ###############################################################################
 *.manifest binary
+*.application binary
 *.deploy binary
+*.zip binary
+* binary
